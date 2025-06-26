@@ -1,0 +1,176 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  background-color: #0a0f1a;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  background: url('headphones_hero_1.jpg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 100px;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.cta-btn {
+  padding: 10px 30px;
+  background-color: #ff6868;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/* Services Section */
+.services {
+    text-align: center;
+    color: black;
+    padding: 60px 20px;
+    background-color: #ffffff;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.results-section {
+  background: #0d0e26 url('background-pattern.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.results-section .content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.results-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.results-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+}
+
+.pentagon-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pentagon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  width: 120px;
+}
+
+.pentagon:hover {
+  transform: scale(1.05);
+}
+
+.pentagon-img {
+  width: 100%;
+  height: auto;
+}
+
+.pentagon .label {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  color: white;
+}
